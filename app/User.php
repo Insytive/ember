@@ -120,12 +120,12 @@ class User extends Authenticatable
 
     public function isVoter()
     {
-        return $this->verified == User::VETERAN_VOTER;
+        return $this->voter == User::VETERAN_VOTER;
     }
 
     public function acceptedTerms()
     {
-        return $this->verified == User::ACCEPT_TERMS;
+        return $this->terms == User::ACCEPT_TERMS;
     }
 
     public static function generateVerificationCode()
