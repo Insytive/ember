@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::resource('users', 'User\UserController', ['except' => ['create', 'edit']]);
+Route::name('verify')->get('user/verify/{token}', 'User\UserController@verify');
+
 Route::resource('volunteers', 'Volunteer\VolunteerController', ['only' => ['index', 'show']]);
 Route::resource('supporters', 'Supporter\SupporterController', ['only' => ['index', 'show']]);
 Route::resource('members', 'Member\MemberController', ['only' => ['index', 'show']]);

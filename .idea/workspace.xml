@@ -114,6 +114,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gx8Zz64VghM6lHCs7b32gidEcj" />
@@ -149,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599044942964</updated>
       <workItem from="1599044944072" duration="4536000" />
-      <workItem from="1599059209919" duration="18977000" />
+      <workItem from="1599059209919" duration="20577000" />
     </task>
     <servers />
   </component>
